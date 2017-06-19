@@ -1,1 +1,2 @@
 ﻿my first git repository
+the second line code
