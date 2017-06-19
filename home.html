@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>青蚨集团 始终相伴</title>
+<link rel="stylesheet" type="text/css" href="css/home/jquery.fullPage.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/common/titlogo.png">
+<script type="text/javascript" src="js/jQuery-1.11-min.js"></script>
+<script type="text/javascript" src="js/home/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/home/jquery-ui.js"></script>
+<link rel="stylesheet" href="css/home/home.css">
+<link rel="stylesheet" href="css/common.css">
+<script>
+    function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        //设备判断
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            //document.writeln("phone");
+            window.location.href="mobile/home.html";
+        }
+    }
+    browserRedirect();
+</script>
+<script type="text/javascript" src="js/home/home.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<!--[if lt IE 9]> 
+    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>   
+<![endif]-->
+<style>
+	.page0{ background: #fff; }
+	.page1{ background: #f5f6f9; }
+	.page2{ background: #000; }
+	.page3{ background: #fff; }
+	.section{ overflow: hidden;}
+</style>
+</head>
+<body>
+	<div id="loading">
+		<img src="images/common/loading.gif" alt="">
+	</div>
+	<div class="adBtn">
+		<a class="adTit" href="html/news10.html">集团公告</a>
+	</div>
+<!--导航-->
+	<div class="wrapper headwrapper">
+		<div class="header clearfix">
+			<div class="f-fl">
+				<a class="head-logo" href="javaScript:;"></a>
+			</div>
+			<ul class="nav f-fr">
+				<li><a href="/">首页</a></li>
+				<li class="hoverbefore"><a href="html/aboutUS.html">集团简介</a></li>
+				<li class="hovertrue">
+					<a href="javaScript:;">集团板块</a>
+					<div class="nav-body">
+						<ul class="nav-main clearfix">
+							<li><a href="html/zichan.html">青蚨资产</a></li>
+							<li><a href="html/puhui.html">青蚨普惠</a></li>
+							<li><a href="html/caifu.html">青蚨财富</a></li>
+							<li><a href="html/zaixian.html">青蚨在线</a></li>
+							<li><a href="html/jinyi.html">青蚨金翼</a></li>
+							<li><a href="html/kangfu.html">青蚨康复</a></li>
+							<li><a href="html/puxin.html">青蚨普信</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="hovernext">
+					<a href="javaScript:;">集团动态</a>
+					<div class="nav-body">
+						<ul class="nav-main nav-main-center clearfix">
+							<li><a href="html/gonggao.html">重要公告</a></li>
+							<li><a href="html/dongtai.html">集团动态</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="javaScript:;">企业公民</a>
+					<div class="nav-body">
+						<ul class="nav-main clearfix">
+							<li><a href="html/area.html">关注领域</a></li>
+							<li><a href="html/self.html">企业自律</a></li>
+							<li><a href="html/duty.html">企业社会责任</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-last"><a href="html/connectUS.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>	
+	<div id="fullpage">
+		<div class="section page0" data-anchor="page1">
+				<div class="video-bg">
+					<div class="p0-poster-tit">
+						<p>青蚨强势登陆纽约时代广场<br>在世界舞台奏响中国最强音</p>
+					</div>
+					<div class="cover"></div>
+					<video class="video-NY" poster="images/home/NYposter.jpg" width="1100px" controls="true">
+						<source src="video/NYtimes.mp4" type='video/mp4'/>
+						<p>您的浏览器版本过低，暂不支持视频播放，请使用其他浏览器尝试。</p>	
+					</video>				
+					<div class="play-btn"></div>
+				</div>				
+			<div class="p0-wrapper">
+				<div class="timesNews-box clearfix a-fadeinB">
+					<div class="TN-first"><a href="html/6.html">
+						<div class="TN-pic"><img src="images/home/NYT1.jpg" alt=""></div>
+						<h4 class="TN-tit4">最新动态</h4></a>
+						<p class="TN-txt">站在“世界的十字路口”看巨人们如何书写传奇</p>
+					</div>
+					<div><a href="html/7.html">
+						<div class="TN-pic"><img src="images/home/NYT3.jpg" alt=""></div>
+						<h4 class="TN-tit4">最新动态</h4></a>
+						<p class="TN-txt">徐东亚：IPO上市青蚨布局全球产业链的必经之路</p>
+					</div>
+					<div class="TN-last"><a href="html/8.html">
+						<div class="TN-pic"><img src="images/home/NYT2.jpg" alt=""></div>
+						<h4 class="TN-tit4">最新动态</h4></a>
+						<p class="TN-txt ">青蚨强势登陆纽约时代广场 创新金融聚焦世界目光</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="section page1" data-anchor="page2">
+
+				<!--ditu-->
+				<div class="wrapper">
+					<div class="homeTit">青蚨集团生态世界</div>
+					<div class="area">
+					<div class="area0">
+						<img src="images/home/mountain.png" alt="mountain">
+					</div>
+					<div class="area1">
+						<img src="images/home/glass.gif" alt="glass">
+					</div>
+					<div class="area2">
+						<img src="images/home/zichan.png" alt="zichan">
+						<span class="sign signgroup">
+							<img src="images/common/signzc.png" alt="sign">
+						</span>
+					</div>
+					 <div class="area3">
+					 	<img src="images/home/kangfu.gif" alt="kangfu2">
+					 	<span class="sign signkf">
+					 		<img src="images/common/signkf.png" alt="sign">
+					 	</span>
+					 </div>
+					<div class="area4">
+						<img src="images/home/zaixian.gif" alt="zaixian">
+						<span class="sign signzx">
+							<img src="images/common/signzx.png" alt="sign">
+						</span>
+					</div>
+					<div class="area5">
+						<img src="images/home/jinyi.gif" alt="jinyi">
+						<span class="sign signjy">
+							<img src="images/common/signjy.png" alt="sign">
+						</span>
+					</div>
+					<div class="area6">
+						<img src="images/home/caifu.gif" alt="caifu">
+						<span class="sign signcf">
+							<img src="images/common/signcf.png" alt="sign">
+						</span>
+					</div>
+					<div class="area7">
+						<img src="images/home/puxin.gif" alt="puxin">
+						<span class="sign signpx">
+							<img src="images/common/signpx.png" alt="sign">
+						</span>
+					</div>
+					<div class="area8">
+						<img src="images/home/puhui.gif" alt="puhui">
+						<span class="sign signph">
+							<img src="images/common/signph.png" alt="sign">
+						</span>
+					</div>
+					<div class="area9"><img src="images/home/yun2.png" alt="yun"></div>
+					<div class="area10"><img src="images/home/yun1.png" alt="yun"></div>
+				</div>	
+				</div>
+		</div>
+
+	    <div class="section page2" data-anchor="page3">
+			<video width="100%" id="my-video" class="p2-video video-js vjs-default-skin" preload="auto" controls>
+				<source src="video/qingfu1.mp4" type='video/mp4' />
+			    <source src="video/qingfu.WebM" type='video/webm' />
+			    <!-- <source src="http://视频地址格式3.ogv" type='video/ogg' /> -->
+				<p>您的浏览器版本过低，暂不支持视频播放，请使用其他浏览器尝试。</p>
+			</video>
+			<div class="video-mask"></div>
+			<div class="video-mask2"></div>
+			<span class="play-button"></span>
+			<p class="video-tit">青蚨资产管理集团</p>
+			<a class="formore" href="javaScript:;">查看更多信息></a>
+	    </div>
+	    <div class="section page3" data-anchor="page4">
+    		<!-- <h3 class="pg2-tit">青蚨资产管理集团</h3> -->
+			<div class="news clearfix">
+				<div class="new0 f-fl">
+					<a class="new-bg" href="html/aboutUS.html"><img src="images/home/new000.jpg" alt=""></a>
+					<p>青蚨集团</p>
+				</div>
+				<div class="new1  f-fr">
+					<a class="new-bg" href="html/dongtai.html"><img src="images/home/new001.jpg" alt=""></a>
+					<p>青蚨动态</p>
+				</div>
+				<div class="new1 new2  f-fr">
+					<a class="new-bg" href="#page1"><img src="images/home/new002.jpg" alt=""></a>
+					<p>青蚨生态</p>
+				</div>
+				<div class="new3  f-fl">
+					<a class="new-bg" href="#page1"><img src="images/home/new003.jpg" alt=""></a>
+					<p>青蚨品牌</p>
+				</div>
+				<div class="new4  f-fr">
+					<a class="new-bg" href="html/duty.html"><img src="images/home/new004.jpg" alt=""></a>
+					<p>青蚨责任</p>
+				</div>
+			</div>
+			<!-- 底部 -->
+			<div class="footer homefooter">
+				<div class="wrapper">
+					<ul class="foot-nav clearfix">
+						<!-- <li><a href="">帮助中心</a></li>
+						<li><a href="">安全保障</a></li> -->
+						<li><a href="html/connectUS.html">联系我们</a></li>
+						<li style="border-right:0"><a href="html/joinUS.html">加入我们</a></li>
+					</ul>
+					<p>Copyright © 2010-2017 青蚨集团 版权所有 京ICP备17012986号</p>
+					<p class="phone">客服电话<br/>4008-2525-66</p>
+				</div>
+			</div>
+			<ul id="menu">
+				<li class="active" data-menuanchor="page1">
+					<span class="side-tit">热点聚焦</span>
+					<a class="a1" href="#page1" title=""></a>
+				</li>
+				<li data-menuanchor="page2">
+					<span class="side-tit">青蚨生态</span>
+					<a class="a2" href="#page2" title=""></a>
+				</li>
+				<li data-menuanchor="page3">
+					<span class="side-tit">青蚨广告片</span>
+					<a class="a3" href="#page3" title=""></a>
+				</li>
+				<li data-menuanchor="page4">
+					<span class="side-tit">青蚨动态</span>
+					<a class="a3" href="#page4" title=""></a>
+				</li>
+			</ul>
+
+<script>
+	$(function(){
+		$('#menu li a').hover(function(){
+			$(this).siblings("span").css('display','block');
+		},function(){
+			$(this).siblings('span').css('display','none');
+		})
+	});
+	$(document).ready(function(){
+		var city=$('.area').children('div');
+		city.hover(function(){
+			$(this).find('span').show();
+		},function(){
+			$(this).find('span').hide();
+		})
+	})
+</script>		
+</body>
+</html>
